@@ -26,6 +26,9 @@ class CalcTest {
     @Test
     void testMultiply(){assertEquals(2,int1*int2);}
 
+    @Test
+    void testDivide(){assertEquals(2,int2/int1);}
+
     @AfterEach
     void tearDown() {
     }
