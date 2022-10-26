@@ -19,6 +19,9 @@ class CalcTest {
     void testTotal(){
         assertEquals(3,int1 + int2);
     }
+
+    @Test
+    void testMinus(){assertEquals(1,int2-int1);}
     @AfterEach
     void tearDown() {
     }
