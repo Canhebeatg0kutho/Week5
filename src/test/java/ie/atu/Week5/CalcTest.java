@@ -22,6 +22,10 @@ class CalcTest {
 
     @Test
     void testMinus(){assertEquals(1,int2-int1);}
+
+    @Test
+    void testMultiply(){assertEquals(2,int1*int2);}
+
     @AfterEach
     void tearDown() {
     }
