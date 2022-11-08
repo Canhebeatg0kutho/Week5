@@ -14,7 +14,7 @@ public class Counter {
             throw new IllegalArgumentException("This is not a valid number");
         }
     }
-
+//increment method
         public int increment()
         {
             countValue++;
