@@ -20,5 +20,5 @@ public class Counter {
             countValue++;
             return countValue;
         }
-
+//added decrementhh
 }
